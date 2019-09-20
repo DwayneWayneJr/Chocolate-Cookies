@@ -9,22 +9,59 @@
 }
 
 header {
-  width: 900;
+  width: 100%;
   float: left;
-  height: 10px;
-  display: inline-block;
+  border-image: url(img/hr-img.png) 10px;
+  overflow: hidden;
+  margin-bottom: 45px;
 }
 
-header img, section {
+header img, #logoleft {
   float: left;
 }
 
 h2 {
- font-size: 35px;
- font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+  font-family: 'Yellowtail', cursive;
 }
 
 h3 {
   font-size: 12px;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#logoleft {
+  margin-left: 10px;
+}
+
+#logoright {
+  float: right;
+  margin-right: 0;
+}
+
+#logoright img {
+  margin: 1px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+#title {
+  overflow: auto;
+  width: 100%;
+}
+
+span {
+  float: right;
+  width: 50px;
+}
+
+span img {
+  float: left;
 }
