@@ -1,0 +1,30 @@
+* {
+  outline: 1px dotted red;
+}
+
+#page {
+  width: 900px;
+  margin: 0 auto;
+  background: lightgray;
+}
+
+header {
+  width: 900;
+  float: left;
+  height: 10px;
+  display: inline-block;
+}
+
+header img, section {
+  float: left;
+}
+
+h2 {
+ font-size: 35px;
+ font-family: 'Yellowtail', cursive;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
