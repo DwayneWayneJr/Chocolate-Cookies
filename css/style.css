@@ -1,5 +1,5 @@
 * {
-  outline: 1px dotted red;
+  /* outline: 1px dotted red; */
 }
 
 #page {
@@ -74,6 +74,9 @@ h4 {
   margin-bottom: 30px;
   color: rgb(97, 97, 97);
 }
+#recipeSteps {
+  height: 350px;
+}
 #recipeSteps img {
   position: absolute;
   z-index: -1;
@@ -90,4 +93,55 @@ h4 {
   font-size: 31px;
   color: rgba(119, 72, 72, 0.781);
   font-family: 'Patrick Hand', cursive;
+}
+#vanessa {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  width: 100%;
+  overflow: hidden;
+}
+#vanessa img, #vanessa #vanessaText, #vanessa #button {
+  float: left;
+}
+h5 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgb(102, 102, 102);
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+#vanessaText p {
+  margin-left: 15px;
+  font-size: 20px;
+}
+#vanessaText {
+  width: 70%;
+}
+#button {
+  width: 175px;
+  height: 50px;
+  background-color: rgb(172, 90, 61);
+}
+#button h6 {
+  color: rgb(221, 217, 217);
+  padding: 15px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+footer {
+  margin-top: 30px;
+  border-top: 1px solid rgb(218, 218, 218);
+  margin-bottom: 100px;
+}
+footer p {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(163, 162, 162);
+}
+footer img {
+  position: absolute;
+  margin-left: 430px;
+  margin-top: -17px;
 }
